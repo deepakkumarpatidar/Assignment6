@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css"></link>
+        <link rel="stylesheet" href="css/bootstrap.min.css"></link>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/tether.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script src="js/project.js"></script>
+        
+
+    </head>
+    <body>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 bg-dark">
+            <div class="text-md-center text-white">
+              <h1>New Brand</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <button class="btn btn-success" data-toggle="modal" data-target="#feedback-mod">Feedback</button>
+      </div>
+      <div class="modal fade" id="feedback-mod">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Feedback Form</h3>
+            </div>
+            <div class="modal-body">
+              <form class="form-box">
+                <div class="form-group">
+                  <label class="form-control-label">Email</label>
+                  <input type="email" class="form-control" placeholder="xyz@abc">
+                </div>
+                <div class="form-group">
+                  <label class="form-control-label">Message</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <button type="submit" class="btn btn-primary btn-block" >Submit</button>
+                    </div>
+                    <div class="col-md-6">
+                      <button class="btn btn-danger btn-block" data-dismiss="model">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-5 push-1">
+            <p>
+              India, officially the Republic of India, is a
+               country in South Asia. It is the second-most populous 
+               country, the seventh-largest country by land area, 
+              and the most populous <span class="tooltip-x text-info"  
+              title="a system of government by the whole population or all the eligible members of a 
+  state, typically through elected representatives">democracy</span> in the world.
+            </p>
+          </div>
+          <div class="col-xl-5 push-1">
+            <p>
+              India, officially the Republic of India, is a
+               country in South Asia. It is the second-most populous 
+               country, the seventh-largest country by land area, 
+              and the most populous <span href="#" class="specific-tip text-info"  
+              title="democracy is democracy">democracy</span> in the world.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#" class="btn btn-primary dynamic-popover1" data-bind="#popovr">FaceBook</a>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn btn-primary dynamic-popover2" data-bind="#popovr2">Twitter</a>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+
+      <div style="display: none;">
+        <div id="popovr">
+          <div class="data-title">FaceBook</div>
+          <div class="data-content">
+            <strong>Congratulations</strong>
+            <strong>Now you can connent to us on facebook also.</strong>
+          </div>
+        </div>
+      </div>
+      <div style="display: none;">
+        <div id="popovr2">
+          <div class="data-title">Twitter</div>
+          <div class="data-content">
+            <strong>Congratulations</strong>
+            <strong>Now you can check our next steps on twitter and </strong>
+              <strong>can know about our future plan</strong>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
