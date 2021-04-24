@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACA,MAAM,EAAE,IAAI;;ACDhB,IAAI;EACA,UAAU,EAAE,IAAI;;AAIpB,SAAS;EACL,gBAAgB,EAAE,OAAkB;EACpC,KAAK,EAAE,KAAK",
+"sources": ["../sass/partials/base.scss","../sass/partials/nav.scss"],
+"names": [],
+"file": "layout.css"
+}
